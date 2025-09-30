@@ -21,3 +21,22 @@ feedback_project/
 1. **Install dependencies:**  
    ```bash
    pip install -r requirements.txt
+2. **Train the model:**  
+   ```bash
+  python Customer_Feedback_Analysis_Tool.py --data reviews.csv --out_dir output
+3.  **Start the WebApp:** 
+     ```bash
+     python app.py
+4.  **Open in your browser::** 
+5.   **Use the app:** 
+
+ ```bash
+Enter customer reviews in the text box
+
+Click submit to get sentiment analysis results
+
+View insights and predictions on the page
+     
+
+
+  
