@@ -19,23 +19,27 @@ feedback_project/
 └─ index.html 
 ## How to Use
 1. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 
-2. Train models:
+2.Train models:
+
 python Customer_Feedback_Analysis_Tool.py --data reviews.csv --out_dir output
 
-3. Run web app:
+3.Run web app:
+
 python app.py
 
-
-**Notes**
-- Use a larger dataset locally for better accuracy.  
-- First time running: download NLTK resources:
+## Note
 ```python
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
+
+
+
+
 
 
 
