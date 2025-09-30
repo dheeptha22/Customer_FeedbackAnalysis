@@ -17,18 +17,19 @@ feedback_project/
 ├─ .gitignore
 └─ templates/
 └─ index.html 
+
 ## How to Use
 1. Install dependencies:
 
-```bash`
+```bash
 pip install -r requirements.txt
 
 2.Train models:
-```bash`
+```bash
 python Customer_Feedback_Analysis_Tool.py --data reviews.csv --out_dir output
 
 3.Run web app:
-```bash`
+```bash
 python app.py
 
 
