@@ -12,14 +12,14 @@ A web-based tool for analyzing customer reviews and predicting sentiment (positi
 
 ## Project Structure
 
-feedback_project/
+┌ feedback_project/
 │
-├─ Customer_Feedback_Analysis_Tool.py   # Training + preprocessing script
-├─ app.py                               # Flask web app
-├─ reviews.csv                          # Sample dataset (~50 reviews)
-├─ requirements.txt                     # Python dependencies
-├─ README.md                            # Project instructions
-├─ .gitignore                           # Ignored files/folders
+├─ Customer_Feedback_Analysis_Tool.py ── Training + preprocessing script
+├─ app.py ── Flask web app
+├─ reviews.csv ── Sample dataset (~50 reviews)
+├─ requirements.txt ── Python dependencies
+├─ README.md ── Project instructions
+├─ .gitignore ── Ignored files/folders
 └─ templates/
-    └─ index.html                       
+└─ index.html ── HTML template for Flask                  
 
